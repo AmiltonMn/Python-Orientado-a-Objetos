@@ -1,0 +1,2 @@
+O nome do aluno é Amilton. A idade do aluno é 19. A turma do aluno é SD. A planta do aluno é Curitiba
+O nome do aluno é Amilton. A idade do aluno é 19. A turma do aluno é SD. A planta do aluno é Curitiba.

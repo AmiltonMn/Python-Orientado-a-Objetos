@@ -1,0 +1,40 @@
+Classes são objetos onde guardamos funções que funcionam com os parâmetros que estão no objeto.
+Ex: Vamos usar a classe carro. Dentro dessa classe 'Carro' nós temos a função dirigir.
+Como o carro está desligado, e para dirigir ele precisa estar ligado, nós criamos duas funções: Dirigir e LigarCarro.
+Uma função não vai funcionar se a outra não estiver funcionado.
+Ex como seria o código:
+
+class Carro:
+    def __init__(self, marca, cor, ligado=False)
+    self.__marca
+    self._cor
+    self.ligado = ligado
+
+
+    def ligar(ligado)
+        if Carro.ligado == false:
+            print('Ligando...')
+            Carro.ligado = True
+
+
+    def dirigir(ligado)
+        if Carro.ligado == false:
+            print('O veículo está desligado. Ligue ele para poder dirigir')
+        else:
+            print('Você está dirigindo!')
+
+Dentro da classe podemos fazer as funções para facilitar o uso do código e o entendimento dele, além de poder organizar melhor o código e utilizar os mesmos parâmetros da classe usando subclases
+Ex:
+
+class Moto(Carro):
+    def __init__(self, marca, cor, ligado=False)
+    self.__marca
+    self._cor
+    self.ligado = ligado
+
+carro = Carro()
+moto = Moto()
+moto.ligar()
+carro.ligar()
+
+Nesse exemplo, as classes são diferentes, mas ambas podem usar as mesmas funções da classe principal, pois a subclasse herdou da classe 'Carro' os atributos.
